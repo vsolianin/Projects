@@ -1,0 +1,788 @@
+body{
+	margin: 0;
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+
+.header, .banner, .number, .about_me, .need_a_project, .footer{
+	width: 100%;
+}
+
+}
+#big_block{
+	margin: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+}
+.header{
+	height: 100px;
+	margin: 0 auto;
+	top: 0;
+	position: fixed;
+	border: 2px solid black none;
+	z-index: 1;
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.header_logo img{
+	width: 31px;
+	height: 25px;
+	margin-left: 98px;
+	margin-top: 38px;
+	float: left;
+}
+.header_text{
+	width: 215px;
+	height: 12px;
+	margin-right: 97px;
+	margin-top: 45px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.home{
+	color: #191919;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	float: left;
+	font-family: sans-serif;
+	letter-spacing: 1.2px;
+}
+.about{
+	color: #10c9c3;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+	vertical-align: top;
+	font-family: sans-serif;
+	letter-spacing: 1.2px;
+
+}
+.contact{
+	color: #191919;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	float: right;
+	font-family: sans-serif;
+	letter-spacing: 1.2px;
+}
+.banner{
+
+	height: 350px;
+	border: 2px solid black none;
+	background-image: url(img/Amelia_Woods_2.jpg);
+	background-repeat: no-repeat;
+	background-position-y: 35%;
+	background-size: cover;
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+#amelia{
+	width: 280px;
+	height: 38px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 38px;
+	font-weight: 600;
+	left: 545px;
+	top: 119px;
+	letter-spacing: 0.38px;
+	margin-bottom: 25px;
+}
+#amelia_item{
+	width: 512px;
+	height: 44px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: 0.09px;
+	left: 427px;
+	top: 187px;
+	text-align: center;
+}
+.number{
+	height: 240px;
+	background: #10c9c3;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.number > a{
+	margin: 50px;
+	margin-top: 101px;
+}
+.projects{
+	width: 231px;
+	height: 48px;
+	float: left;
+	margin-left: 102px;
+	
+	position: relative;
+}
+.logo img{
+	height: 40px;
+}
+#_548{
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.54px;
+	position: absolute;
+	left: 67px;
+	top: 0px;
+}
+#_project{
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	position: absolute;
+	left: 67px;
+	top: 28px;
+}
+
+.working{
+	width: 192px;
+	height: 50px;
+	float: left;
+	margin-left: 69px;
+	
+	position: relative;
+}
+#_1465{
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.54px;
+	position: absolute;
+	left: 67px;
+	top: 0px;
+}
+#_working{
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	position: absolute;
+	left: 67px;
+	top: 28px;
+}
+.positive{
+	width: 224px;
+	height: 45px;
+	float: left;
+	margin-left: 69px;
+	
+	position: relative;
+}
+
+#_612{
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.54px;
+	position: absolute;
+	left: 67px;
+	top: 0px;
+}
+#_positive{
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	position: absolute;
+	left: 67px;
+	top: 28px;
+}
+.happy{
+	width: 178px;
+	height: 45px;
+	float: left;
+	margin-left: 69px;
+	
+	position: relative;
+}
+.number > a:nth-child(4){
+	margin-right: 0;
+}
+.number > a:nth-child(1){
+	margin-left: 0;
+}
+#_735{
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.54px;
+	position: absolute;
+	left: 67px;
+	top: 0px;
+}
+#_happy{
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	position: absolute;
+	left: 67px;
+	top: 28px;
+}
+.about_me{
+	height: 570px;
+	background-image: url(img/Calendar.jpg);
+	background-repeat: no-repeat;
+	background-position-y: 74%;
+	background-size: cover;
+}
+.flower{
+	width: 683px;
+	height: 570px;
+	float: left;
+	background: grey;
+}
+.for_me{
+	width: 683px;
+	height: 570px;
+	float: right;
+}
+#text_about_me{
+	margin-left: 86px;
+	margin-top: 140px;
+	margin-bottom: 40px;
+	color: #171717;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+}
+#text_given{
+	margin-left: 86px;
+	width: 454px;
+	height: 134px;
+	color: #787878;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.08px;
+}
+.signature{
+	margin-left: 86px;
+}
+.need_a_project{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 396px;
+	position: relative;
+}
+.nap_text{
+	width: 537px;
+	height: 102px;
+}
+.nap_text div:nth-child(1){
+	color: #1d1d1d;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 23px;
+	text-align: center;
+	letter-spacing: 0.3px;
+}
+.nap_text div:nth-child(2){
+	color: #1d1d1d;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	line-height: 24px;
+	letter-spacing: 0.08px;
+}
+.nap_button{
+	width: 180px;
+	height: 54px;
+	left: 593px;
+	top: 243px;
+	background-color: #10c9c3;
+}
+.nap_button div {
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 51px;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	margin-top: 21px;
+}
+.footer{
+	height: 284px;
+	border: 2px solid black none;
+	position: relative;
+	background: black;
+	opacity: 0.9;
+}
+.design{
+	width: 225px;
+	height: 84px;
+	float: left;
+	margin-top: 99px;
+	margin-left: 98px;
+	text-align: left;
+	font-family: sans-serif;
+}
+.design div:nth-child(1){
+	color: #ffffff;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.18px;
+	margin-bottom: 20px;
+}
+
+.design div:nth-child(2){
+	color: #bcbcbc;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.07px;
+}
+
+.form{
+	width: 155px;
+	height: 40px;
+	position: absolute;
+	top: 99px;
+	left: 569px;
+	font-family: sans-serif;
+	color: #DCDCDC;
+}
+.form a{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.07px;
+	text-decoration: none;
+	color: #bcbcbc;
+}
+.form div{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: 0.07px;
+	text-decoration: none;
+	color: #bcbcbc;
+	text-align: left;
+	margin-top: 7px;
+}
+.items{
+	width: 165px;
+	height: 86px;
+	position: absolute;
+	top: 99px;
+	right: 334px;
+}
+.item_1{
+    width: 57px;
+	height: 86px;
+	float: left;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: -5px;
+}
+.item_1 a{
+	color: #bcbcbc;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.07px;
+	text-decoration: none;
+	
+
+}
+.item_2{
+    width: 57px;
+	height: 86px;
+	display: inline-block;
+	float: right;
+	text-align: left;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: -5px;
+}
+.item_2 a{
+	color: #bcbcbc;
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.07px;
+	text-decoration: none;
+}
+.socials{
+	width: 68px;
+	height: 83px;
+	border: 2px solid white none;
+	position: absolute;
+	top: 95px;
+	right: 131px;
+	font-family: sans-serif;
+	
+}
+.socials a{
+	font-family: sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.07px;
+	text-decoration: none;
+	color: #bcbcbc;
+}
+.socials a:hover{
+	font-weight: 600;
+}
+.item_2 a:hover{
+	font-weight: 600;
+}
+.item_1 a:hover{
+	font-weight: 600;
+}
+@media (max-width: 1450px) {
+	body{
+		padding-top: 55px;
+	}
+	.header{
+		height: 55px;
+		display: flex;
+		justify-content: space-between;
+
+	}
+	.header_logo img{
+		width: 30px;
+		height: auto;
+		margin-top: 18px;
+		float: inherit;
+	}
+	.header_text{
+		width: 215px;
+		height: 12px;
+		margin-right: 120px;
+		margin-top: 21px;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		
+	}
+	.home{
+		font-size: 14px;
+		float: inherit;
+		margin-right: 25px;
+	}
+	.about{
+		margin-left: 0px;
+		margin-right: 25px;
+		font-size: 14px;
+		position: inherit;
+	}
+	.contact{
+		font-size: 14px;
+		float: inherit;
+	}
+	
+	.banner{
+	height: 500px;
+	background-position-y: 55%;
+
+	}
+	#amelia{
+		width: auto;
+		height: 59px;
+		font-size: 45px;
+		margin-top: 100px;
+		margin-bottom: 5px;
+
+	}
+	#amelia_item{
+		width: auto;
+		height: 45px;
+		font-size: 22px;
+		line-height: 27px;	
+	}
+	.number{
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
+	}
+	.number > a{
+		margin: auto;
+	}
+
+	.projects{
+		width: 244px;
+		margin: 0;
+		float: inherit;
+	}
+	.working{
+		margin-left: auto;
+		float: inherit;
+		width: 213px;
+	}
+	.positive{
+		width: 248px;
+		margin-left: auto;
+		float: inherit;
+	}
+
+	.happy{
+		width: 179px;
+		margin-left: -39px;
+		float: auto;
+	}
+	.number > a:nth-child(4){
+	margin-right: auto;
+	}
+	.number > a:nth-child(1){
+		margin-left: auto;
+	}
+	.footer{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.design{
+		margin-left: 0;
+	}
+	.form{
+		width: 155px;
+		margin-top: 99px;
+		position: unset;
+	}
+	.items{
+		position: unset;
+		margin-top: 99px;
+	
+	}
+	.socials{
+		position: unset;
+		margin-top: 99px;
+	}
+
+	.for_me{
+		float: right;
+	}
+
+	#text_about_me{
+		margin-left: 65px;
+		margin-right: 37px;
+		direction: rtl;
+	}
+	#text_given{
+		margin-left: 194px;
+		text-align: right;
+	}
+	.signature{
+		margin-left: 86px;
+		margin-right: 36px;
+		direction: rtl;
+	}
+}
+@media (max-width: 649px) {
+	body{
+		padding-top: 55px;
+	}
+	.header{
+		height: 55px;
+		display: flex;
+		justify-content: space-between;ы
+	}
+	.header_logo img{
+		width: 30px;
+		height: auto;
+		margin-left: 25px;
+		float: inherit;
+		margin-top: 
+	}
+	.header_text{
+		width: 215px;
+		height: 12px;
+		margin-right: 50px;
+		margin-top: 21px;
+		padding-left: 28px;
+		float: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		
+	}
+	.banner{
+		background-position-x: 12%;
+	}
+	
+	.home{
+		font-size: 14px;
+		float: inherit;
+		margin-right: 25px;
+	}
+	.about{
+		margin-left: 0px;
+		margin-right: 25px;
+		font-size: 14px;
+		position: inherit;
+	}
+	.contact{
+		font-size: 14px;
+		float: inherit;
+	}
+	.nap_text{
+		width: auto;
+		height: auto;
+	}
+	.nap_text div:nth-child(2){
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	#text_about_me{
+		margin-top: 30px;
+	}
+	.need_a_project{
+		height: 280px;
+	}
+	.footer{
+		height: 300px;
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer > div{
+		margin-top: 0;
+	}
+	.socials > a{
+		margin: 5px;
+	}
+	.socials{
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		width: auto;
+		height: auto;
+	}
+	.items{
+		margin-right: -16px;
+		margin-bottom: 25px;
+		height: auto;
+	}
+	.form{
+		margin-bottom: 25px;
+		margin-right: -8px;
+	}
+	.form div{
+		text-align: center;
+	}
+	.design div:nth-child(1){
+		margin-bottom: 0;
+	}
+	.design{
+		text-align: center;
+	}
+}
+@media (max-width: 530px) {
+	#amelia{
+		font-size: 35px;
+	}
+	#amelia_item{
+		font-size: 17px;
+	}
+	.number{
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 100%;
+	}
+	.projects{
+		width: 244px;
+		margin: 0;
+		float: inherit;
+	}
+	.working{
+		margin-left: auto;
+		float: inherit;
+		width: 213px;
+		margin-right: 30px;
+	}
+	.positive{
+		width: 248px;
+		margin-left: 0;
+		float: inherit;
+	}
+
+	.happy{
+		width: 179px;
+		margin-left: -65px;
+		float: auto;
+	}
+	.about_me{
+		background-position-x: 20%; 
+	}
+	.for_me{
+		width: auto;
+		height: auto;
+	}
+	#text_about_me{
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-top: 30px;
+		width: auto;
+		height: auto;
+		text-align: center;	
+	}
+	#text_given{
+		margin-left: 25%;
+		margin-right: 25%;
+		width: auto;
+		height: auto;
+		text-align: center;
+	}
+	.signature{
+		margin-left: 25%;
+		margin-right: 15%;
+		margin-top: 10px;
+	}
+}
