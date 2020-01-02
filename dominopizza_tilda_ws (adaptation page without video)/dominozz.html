@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" 
+				content="width=device-width",
+				initial-scale=1,
+				maximum-scale=1>
+	<title>Dominozz</title>
+	<link rel="stylesheet" type="text/css" href="dominozz.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<div class="header_block">
+			<h1>Анкета франчайзi Domino's Pizza</h1>
+			<hr>
+			<p class="header_text">Ми розробили анкету для всіх, хто бажає стати партнером бренду Domino's Pizza,<br> відкривши власну піцерію. Всі питання в цій анкеті - обов'язкові для заповнення.</p>
+			<p class="header_text_2">Перед заповненням анкети, будь ласка, детально ознайомтеся з сайтом</p>
+			<a href="https://biz.dominos.ua/">https://biz.dominos.ua/</a>
+		</div>
+	</div>
+	<div class="main_block">
+		<div class="central_block">
+			<h1>Анкета для кандидата у франчайзi</h1>
+			<a href="http://biz.dominos.ua/">http://biz.dominos.ua/</a>
+		</div>
+		<div class="input_block">
+			<form>
+				<p>Як до Вас звертатися? (ПIБ повнiстю)</p>
+					<input type="text" class="text_block" name="ФІО" placeholder="прізвище ім'я по батькові">
+		
+				<p>Бажаний регіон відкриття (Область та Мiсто). Якщо Вашого міста немає в списку, то він вже або відкритий, або в ньому немає 50.000 населення.</p>
+					<select name="Регіон" class="select_block">
+						<option>Бажане місто для відкриття</option>
+						<option>Харків</option>
+						<option>Алчевськ</option>
+						<option>Антрацит</option>
+						<option>Артемівськ</option>
+						<option>Бердичів</option>
+						<option>Біла Церква</option>
+						<option>Білгород-Дністровський</option>
+						<option>Бориспіль</option>
+						<option>Брянка</option>
+						<option>Вінниця</option>
+						<option>Димитров</option>
+						<option>Дніпродзержинськ</option>
+						<option>Дніпро</option>
+						<option>Дрогобич</option>
+						<option>Дружківка</option>
+						<option>Енергодар</option>
+						<option>Єнакієве</option>
+						<option>Житомир</option>
+						<option>Жовті Води</option>
+					</select>
+				
+				<p>Посилання на персональну facebook чи instagram сторiнку</p>
+					<input type="text" class="text_block" placeholder="Ваші соціальні мережі" name="Соціальні мережі">
+				
+				<p>Чи проживаєте Ви у місті /області, в якому плануєте відкрити бізнес?</p>
+					<div>	
+						<div class="life">
+							<input type="radio" name="life" id="life_box_1">
+							<label for="life_box_1">Так, проживаю</label>
+						</div>
+						<div class="life">
+							
+							<input type="radio" name="life" id="life_box_2">
+							<label for="life_box_2">Ні, не проживаю</label>
+						</div>
+						<div class="life">
+							
+							<input type="radio" name="life" id="life_box_3">
+							<label for="life_box_3">Інше</label>
+						</div>
+					</div>	
+				<p>Кількість піцерій, яку бажаєте відкрити</p>
+				<div id="pizza_text">1 піцерія = 20-30 тис квартир,
+				 1 квартира = 3 людини</div>
+					<div>
+
+						<div class="minus_box">
+							<span></span>
+						</div>
+						<input class="text_count" type="text" name="count" id="count" value="">
+						<div class="plus_box">
+							<span></span>
+						</div>
+					</div>
+				<p>Контактний телефон</p>
+					<input type="tel" class="text_block" name="phone">
+				
+				<p>Контактний e-mail</p>
+					<input type="email" class="text_block" name="post">
+				
+				<p>Назва компанії і бренду, які ви представляєте</p>
+					<textarea class="text_block" rows="3" name="brand_name" placeholder="Перерахувати назви юридичних компаній і брендів"></textarea>
+			
+				<p>Ваша сфера діяльності</p>
+					<select class="select_block" name="skills">
+						<option>Оберіть сферу діяльності</option>
+						<option>IT, комп'ютери, інтернет</option>
+						<option>Сільське господарство, агробізнес</option>
+						<option>Адміністрація, керівництво середньої ланки</option>
+						<option>Будівництво, архітектура</option>
+						<option>Бухгалтерія, аудит</option>
+						<option>Готельно-ресторанний бізнес, туризм</option>
+						<option>Дизайн, творчість</option>							
+						<option>ЗМІ, видавництво, поліграфія</option>
+						<option>Краса, фітнес, спорт</option>
+						<option>Культура, музика, шоу-бізнес</option>
+						<option>Логістика, склад, ЗЕД</option>
+						<option>Маркетинг, реклама, піар</option>
+						<option>Медицина, фармацевтика</option>
+						<option>Нерухомість</option>			
+						<option>Освіта, наука</option>
+						<option>Охорона, безпека</option>
+						<option>Продаж, закупівля</option>
+						<option>Робочі спеціальності, виробництво</option>
+						<option>Роздрібна торгівля</option>
+						<option>Секретаріат, діловодство, АВГ</option>
+						<option>Страхування</option>		
+						<option>Сфера обслуговування</option>
+						<option>Телекомунікації та зв'язок</option>
+						<option>Топ-менеджмент, керівництво вищої ланки</option>
+						<option>Транспорт</option>
+						<option>Управління персоналом, HR</option>
+						<option>Фінанси, банк</option>
+						<option>Юриспруденція</option>
+					</select>
+				<p>Ким ви являєтесь в компанії?</p>
+					<div class="margin">	
+						<div class="position">
+							<input type="radio" name="position" id="position_box_1">
+							<label for="position_box_1">Власник</label>
+						</div>
+						<div class="position">	
+							<input type="radio" name="position" id="position_box_2">
+							<label for="position_box_2">Топ-менеджер</label>
+						</div>
+						<div class="position">	
+							<input type="radio" name="position" id="position_box_3">
+							<label for="position_box_3">Співробітник</label>
+						</div>
+					</div>
+				
+				<p>Форма властності вашого бізнесу</p>
+					<div class="margin">	
+						<div class="form_business">
+							<input type="radio" name="form_business" id="form_business_box_1">
+							<label for="form_business_box_1">ФОП</label>
+						</div>
+						<div class="form_business">	
+							<input type="radio" name="form_business" id="form_business_box_2">
+							<label for="form_business_box_2">ТОВ</label>
+						</div>
+					</div>
+				
+				<p>Вашi заплановані інвестиції в проект</p>
+					<input type="text" class="text_block" name="$$$" placeholder="Вказати суму, яку Ви готові вкласти в проект, $">
+				
+				<p>Причини обрання франчайза Domino's як потенційного бізнесу?</p>
+					<textarea  rows="3" class="text_block" name="Why?"></textarea>
+				<p>Фото першої сторінки вашого паспорту</p>
+				<div id="passport_text">Паспорт необхідний для перевірки Вашої банківської історї та несудимості. Ми гарантуємо конфіденційнсть інформації.</div>
+				
+				<div>
+					<input type="file" name="foto" id="button_1" value="Выбрать файл">
+					<label class="button_box" name="foto" for="button_1" >Выбрать файл</label>
+				</div>
+				<p>Я ознайомився на сайті з інформацією відносно інвестицій, початкових та регулярних платежів</p>
+				<div>	
+					<div class="knowledge">
+						<input type="checkbox" name="life" id="knowledge_box">	
+						<label class="fly" name="life" for="knowledge_box">
+							<span></span>
+						</label>
+						<label for="knowledge_box" name="life">Ознайомленний з сайтом biz.dominos.ua
+						</label>
+					</div>
+				</div>
+				<div>
+					<button type="submit" id="bigbutton"></button>
+					
+					<label class="big_button" for="bigbutton">
+						<span class="big_button_z"><span></span></span>Надіслати форму
+					</label>
+					
+				</div>
+			</form>	
+		</div>
+		
+	</div>
+	<a id="footer" href="https://tilda.cc/?upm=154365">
+		<div class="footer">
+			<div class="footer_block">
+				<div class="footer_text_1">Made on</div>
+				<div class="color"><img src="https://static.tildacdn.com/img/tildacopy.png"></div>
+				<div class="footer_text_2">Tilda</div>
+			</div>
+		</div>
+	</a>
+</body>
+</html>
